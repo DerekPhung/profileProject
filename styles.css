@@ -45,3 +45,30 @@ input{
     display: grid;
     place-items: center;
 }
+
+.sidebtn{
+    width: 50px;
+}
+
+#navBar{
+    text-align: center;
+    width: 200px;
+    height: 800px;
+    border: 2px solid black;
+    float: left;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.navItem{
+    font-size: 30px;
+    border-bottom: 1px solid blue;
+}
+.navItem:hover{
+    cursor: pointer;
+    background-color: grey;
+}
+
+#welcomeMsg{
+    font-size: 3em;
+}
