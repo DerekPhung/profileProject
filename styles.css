@@ -4,11 +4,9 @@
     padding: 5px;
     background-color: bisque;
     width: 300px;
-    height: 300px;
+    min-height: 900px;
     border-radius: 20px;
     text-align: center;
-    display: grid;
-    place-items: center;
 }
 
 
@@ -33,15 +31,16 @@ input{
 
 #sideBar{
     border: 2px solid black;
+    border-radius: 20px;
     float: right;
-    height: 100vh;
+    height: 900px;
     width: 300px;
     background-color: white;
 }
 
 .profileAdded{
     border: 1px solid black;
-    height: 80px;
+    height: 100px;
     display: grid;
     place-items: center;
 }
@@ -52,8 +51,8 @@ input{
 
 #navBar{
     text-align: center;
-    width: 200px;
-    height: 800px;
+    width: 300px;
+    height: 900px;
     border: 2px solid black;
     float: left;
     background-color: white;
